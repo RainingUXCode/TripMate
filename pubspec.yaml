@@ -1,0 +1,36 @@
+name: tripmate
+description: "Aplicativo de planejamento de viagens em grupo."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  http: ^1.6.0
+  flutter_secure_storage: ^10.0.0
+  image_picker: ^1.2.1
+  lottie: ^3.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  default-flavor: dev
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800

@@ -1,0 +1,16 @@
+{
+  "suite": "TripMate Django REST API",
+  "date_local": "2026-11-07",
+  "start_local": "22:44:59-03:00",
+  "finish_local": "22:46:46-03:00",
+  "base_url": "http://127.0.0.1:8765",
+  "database": "SQLite temporário por execução",
+  "runner": "Playwright TypeScript / APIRequestContext",
+  "expected": 13,
+  "passed": 13,
+  "failed": 0,
+  "skipped": 0,
+  "duration_ms": 107064,
+  "specs": ["auth", "friends", "trips", "invitations", "expenses", "settlements", "notifications", "permissions"],
+  "secrets_included": false
+}
